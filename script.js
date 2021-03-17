@@ -7,7 +7,7 @@ var studente = {
   eta : 32,
 };
 for (var key in studente) {
-console.log(studente[key]);
+console.log(key + "_" + studente[key]);
 // $(".dati_studente").text();
 }
 // Creare un array di oggetti di studenti.
@@ -28,7 +28,7 @@ var studenti = [
 ];
 
 for (var i = 0; i < studenti.length; i++) {
-  console.log(studenti[i]);
+  console.log(studenti[i].nome + "_" + studenti[i].cognome);
 }
 
 
