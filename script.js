@@ -1,54 +1,17 @@
+// Creare un oggetto che descriva uno studente, con le seguenti proprietà: nome, cognome e età.
+// Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
 
+var studente = {
+  nome: "Francesca",
+  cognome: "Petraroia",
+  eta : 32,
+};
+for (var key in studente) {
+console.log(studente[key]);
+// $(".dati_studente").text();
+}
+// Creare un array di oggetti di studenti.
+// Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// clicco su domanda e apre e chiude
-// $("div").click(
-//   function(){
-//     $(this).children().toggle();
-//     console.log($(this).children("p"));
-//   }
-// )
-//
-// $("li").click(function () {
-//      $(this).css("color", "orange");
-//      console.log($(this));
-//  });
+// Dare la possibilità all’utente, attraverso 3 prompt(), di aggiungere un nuovo oggetto studente inserendo
+// nell’ordine: nome, cognome e età.
